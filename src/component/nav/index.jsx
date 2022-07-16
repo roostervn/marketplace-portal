@@ -1,4 +1,24 @@
+import { useEffect } from "react";
+
 export default function Nav() {
+  const chainId = "cosmoshub-4";
+  useEffect(() => {
+    if (window.keplr) {
+      const checkWallet = async () => {
+        const offlineSigner = window.keplr.getOfflineSigner(chainId);
+        const accounts = await offlineSigner.getAccounts();
+        return accounts;
+      };
+
+      console.log(checkWallet().then((data) => console.log(data)));
+    }
+  }, []);
+
+  const handleClickConnectWallet = async () => {
+    console.log("chainId", chainId);
+    await window.keplr.enable(chainId);
+  };
+
   return (
     <header id="header_main" className="header_1 js-header">
       <div className="themesflat-container">
@@ -268,15 +288,33 @@ export default function Nav() {
                       </form>
                     </div>
                   </div>
-                  <div className="sc-btn-top mg-r-12" id="site-header">
-                    <a
-                      href="connect-wallet.html"
-                      id="connectbtn"
-                      className="sc-button header-slider style style-1 wallet fl-button pri-1"
-                    >
-                      <span>Wallet connect</span>
-                    </a>
-                  </div>
+                  {!window.keplr ? (
+                    <>
+                      <div className="sc-btn-top mg-r-12" id="site-header">
+                        <a
+                          href="connect-wallet.html"
+                          id="installbtn"
+                          className="sc-button header-slider style style-1 wallet fl-button pri-1"
+                        >
+                          <span>Install Wallet</span>
+                        </a>
+                      </div>
+                    </>
+                  ) : (
+                    <>
+                      <div className="sc-btn-top mg-r-12" id="site-header">
+                        <a
+                          onClick={handleClickConnectWallet}
+                          href="/"
+                          id="connectbtn"
+                          className="sc-button header-slider style style-1 wallet fl-button pri-1"
+                        >
+                          <span>Wallet connect</span>
+                        </a>
+                      </div>
+                    </>
+                  )}
+
                   <div className="admin_active" id="header_admin">
                     <div className="header_avatar">
                       <div className="popup-notification">

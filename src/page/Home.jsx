@@ -7,7 +7,6 @@ export default function Home() {
       <div id="page" className="clearfix">
         <Nav />
         <BannerBasic />
-
         <section className="tf-section live-auctions style1 pad-b-54 mobie-style">
           <div className="themesflat-container">
             <div className="row">
