@@ -1,6 +1,6 @@
 {
-  "short_name": "Rooster VN",
-  "name": "Đá Gà Cao Cấp",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

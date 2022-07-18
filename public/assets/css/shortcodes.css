@@ -246,6 +246,7 @@
     -ms-transition    : all 0.3s ease;
     -o-transition     : all 0.3s ease;
     transition        : all 0.3s ease;
+    cursor: pointer;
 }
 .is_dark .sc-button {
     color: #fff;
