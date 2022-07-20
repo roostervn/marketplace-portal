@@ -24,7 +24,7 @@ export default function ComponentNav({
                 <div id="site-logo" className="clearfix">
                   <div id="site-logo-inner">
                     <a href="/" rel="home" className="main-logo">
-                      <img
+                      {/* <img
                         id="logo_header"
                         src="assets/images/logo/logo_dark.png"
                         alt="nft-gaming"
@@ -33,7 +33,8 @@ export default function ComponentNav({
                         data-retina="assets/images/logo/logo_dark@2x.png"
                         data-width={133}
                         data-height={56}
-                      />
+                      /> */}
+                      <h3>ChickenSIX</h3>
                     </a>
                   </div>
                 </div>
@@ -43,9 +44,9 @@ export default function ComponentNav({
                 {/* /.mobile-button */}
                 <nav id="main-nav" className="main-nav">
                   <ul id="menu-primary-menu" className="menu">
-                    <li className="menu-item current-menu-item menu-item-has-children">
+                    <li className="menu-item current-menu-item ">
                       <a href="#">Home</a>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li className="menu-item current-item">
                           <a href="index.html">Home 1</a>
                         </li>
@@ -57,7 +58,7 @@ export default function ComponentNav({
                             </li>
                           </ul>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                     <li className="menu-item menu-item-has-children">
                       <a href="#">Explore</a>
@@ -92,51 +93,17 @@ export default function ComponentNav({
                         </li>
                       </ul>
                     </li>
-                    <li className="menu-item menu-item-has-children">
-                      <a href="#">Pages</a>
-                      <ul className="sub-menu">
-                        <li className="menu-item">
-                          <a href="author01.html">Authors</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="author02.html">Authors 2</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="connect-wallet.html">Wallet Connect</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="create-item.html">Create Item</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="profile.html">Edit Profile</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="ranking.html">Ranking</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="login.html">Login</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="signup.html">Sign Up</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="no-result.html">No Result</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="faq.html">FAQ</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="menu-item  menu-item-has-children">
+                
+                    <li className="menu-item ">
                       <a href="#">Contact</a>
-                      <ul className="sub-menu">
+                      {/* <ul className="sub-menu">
                         <li className="menu-item">
                           <a href="contact1.html">Contact 1</a>
                         </li>
                         <li className="menu-item">
                           <a href="contact2.html">Contact 2</a>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
                   </ul>
                 </nav>
