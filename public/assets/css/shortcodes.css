@@ -1892,7 +1892,7 @@
 .flat-slider .flat-bt-slider,
 .flat-slider .sub-heading,
 .flat-slider .heading {
-    /* opacity: 0; */
+    opacity: 0;
 }
 .home-7 .flat-slider .content h4,
 .home-7 .mainslider.home3 .image,
@@ -2455,7 +2455,7 @@ section.today-picks {
 
 .mainslider.home .wrap-heading .content{
     width: 50%;
-    padding-top: 0px;
+    padding-top: 125px;
 }
 
 .mainslider.home .image{

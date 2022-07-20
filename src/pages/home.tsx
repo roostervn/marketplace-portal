@@ -4,7 +4,92 @@ import LayoutBasic from "../layouts/basic";
 export default function Home() {
   return (
     <LayoutBasic>
-        <section className="flat-title-page style2">
+           <section className="flat-title-page home5">
+                <div className="overlay"></div>
+                <div className="themesflat-container">
+                    <div className="wrap-heading flat-slider d-flex align-items-center">
+                        <div className="content">
+                            <h4 className="mg-bt-11"><span className="fill">CHICKEN NFT MARKETPLACE</span></h4>
+                            <h1 className="heading">Discover, find and sell extraordinary chicken NFTs                                                                                      
+                            </h1>	
+                            <p className="sub-heading mg-t-7 mg-bt-39">Marketplace for chicken character cllections non fungible token NFTs
+                            </p>
+                            <div className="flat-bt-slider style2 flex">
+                                <a href="create-item.html" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Create
+                                </span></a>
+                                <a href="explore-1.html" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Explore
+                                </span></a>
+                            </div>
+                        </div>
+                        
+                        <div className="swiper-container swiper mySwiper swiper-h">
+                            <div className="swiper-wrapper">
+                              
+                              <div className="swiper-slide">
+                                <div className="swiper mySwiper1 swiper-v">
+                                  <div className="swiper-wrapper">
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div className="swiper-container swiper mySwiper swiper-h">
+                            <div className="swiper-wrapper">
+                              
+                              <div className="swiper-slide">
+                                <div className="swiper mySwiper2 swiper-v">
+                                  <div className="swiper-wrapper">
+                                  <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                  </div>
+                                  <div className="swiper-pagination"></div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div className="swiper-container swiper mySwiper swiper-h">
+                            <div className="swiper-wrapper">
+                              
+                              <div className="swiper-slide">
+                                <div className="swiper mySwiper1 swiper-v">
+                                  <div className="swiper-wrapper">
+                                  <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                  </div>
+                                  <div className="swiper-pagination"></div>
+                                </div>
+                              </div>/
+                            </div>
+                        </div>
+                        <div className="swiper-container swiper mySwiper swiper-h end">
+                            <div className="swiper-wrapper">
+                              
+                              <div className="swiper-slide">
+                                <div className="swiper mySwiper2 swiper-v">
+                                  <div className="swiper-wrapper">
+                                  <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                  </div>
+                                  <div className="swiper-pagination"></div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>                           
+            </section>
+        {/* <section className="flat-title-page style2">
                 <img className="bgr-gradient gradient1" src="assets/images/backgroup-secsion/bg-gradient1.png" alt=""/>
                 <img className="bgr-gradient gradient2" src="assets/images/backgroup-secsion/bg-gradient2.png" alt=""/>
                 <img className="bgr-gradient gradient3" src="assets/images/backgroup-secsion/bg-gradient3.png" alt=""/>
@@ -25,7 +110,7 @@ export default function Home() {
                                         <div className="content">
                                             <h2 className="heading">Discover, find,
                                             </h2>	
-                                            <h1 className="heading mb-style"><span className="tf-text s1">Chicken SIXS NFTs</span>                                          
+                                            <h1 className="heading mb-style"><span className="tf-text s1">Chicken SIX </span>                                          
                                             </h1>
                                             <p className="sub-heading mg-t-29 mg-bt-44">Marketplace for chicken character cllections non fungible token NFTs
                                             </p>
@@ -37,56 +122,10 @@ export default function Home() {
                                             </div>
                                         </div>
                                         <div className="image">
-                                            <img className="img-bg" src="assets/images/logo/logo.png" alt="Image"/>
-                                            <img src="assets/images/box-item/imgslider2.png" alt="Image"/>
+                                            <img className="img-bg" src="assets/images/item-chicken/chicken4.png" alt="Image"/>
                                         </div>
                                     </div>
                                     
-                                </div>					                           
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="slider-item">	
-                                <div className="themesflat-container">
-                                    <div className="wrap-heading flat-slider text-center two">
-                                        <h2 className="heading">Discover, and collect
-                                        </h2>	
-                                        <h1 className="heading"><span className="tf-text s1">extraordinary</span>
-                                            <span>Monster NFTs</span>
-                                        </h1>
-                                        <p className="sub-heading mg-t-29 mg-bt-50">Marketplace for monster character cllections non fungible token NFTs
-                                        </p>
-                                        <div className="flat-bt-slider flex">
-                                            <a href="explore-1.html" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Explore
-                                            </span></a>
-                                            <a href="create-item.html" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Create
-                                            </span></a>
-                                        </div>
-                                    </div>
-                                </div>					                           
-                            </div>
-                        </div>
-                        <div className="swiper-slide">
-                            <div className="slider-item">	
-                                <div className="themesflat-container flex">
-                                    <div className="image three">
-                                        <img src="assets/images/box-item/imgslider-3.png" alt="Image"/>
-                                        <img className="img-bg" src="assets/images/backgroup-secsion/img-bg-sliderhome3.png" alt="Image"/>
-                                    </div>
-                                    <div className="wrap-heading flat-slider h3 three">
-                                        <h2 className="heading">Discover, and collect
-                                        </h2>	
-                                        <h2 className="heading">extraordinary</h2>
-                                        <h2 className="heading h3"><span className="fill">Monster </span>NFTs</h2>
-                                        <p className="sub-heading mt-29 mb-35">Marketplace for monster character cllections non fungible token NFTs
-                                        </p>
-                                        <div className="flat-bt-slider flex style2">
-                                            <a href="explore-1.html" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Explore
-                                            </span></a>
-                                            <a href="create-item.html" className="sc-button header-slider style style-1 note fl-button pri-1"><span>Create
-                                            </span></a>
-                                        </div>
-                                    </div>
                                 </div>					                           
                             </div>
                         </div>
@@ -95,7 +134,7 @@ export default function Home() {
                 </div>    
                 <div className="swiper-button-next btn-slide-next active"></div>
                 <div className="swiper-button-prev btn-slide-prev"></div>                   
-            </section>
+            </section> */}
       <main style={{ padding: "1rem 0" }}>
       
         <section className="tf-section live-auctions style3 pad-b-54 no-pt-mb mobie-pb-70">
