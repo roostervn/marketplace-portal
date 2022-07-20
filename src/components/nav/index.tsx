@@ -23,7 +23,7 @@ export default function ComponentNav({
               <div className="wrap-box flex">
                 <div id="site-logo" className="clearfix">
                   <div id="site-logo-inner">
-                    <a href="index.html" rel="home" className="main-logo">
+                    <a href="/" rel="home" className="main-logo">
                       <img
                         id="logo_header"
                         src="assets/images/logo/logo_dark.png"
