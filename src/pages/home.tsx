@@ -9,10 +9,10 @@ export default function Home() {
                 <div className="themesflat-container">
                     <div className="wrap-heading flat-slider d-flex align-items-center">
                         <div className="content">
-                            <h4 className="mg-bt-11"><span className="fill">CHICKEN NFT MARKETPLACE</span></h4>
-                            <h1 className="heading">Discover, find and sell extraordinary chicken NFTs                                                                                      
+                            <h4 className="mg-bt-11"><span className="fill">ROOSTER NFT MARKETPLACE</span></h4>
+                            <h1 className="heading">Discover, find and sell extraordinary rooster NFTs                                                                                      
                             </h1>	
-                            <p className="sub-heading mg-t-7 mg-bt-39">Marketplace for chicken character cllections non fungible token NFTs
+                            <p className="sub-heading mg-t-7 mg-bt-39">Marketplace for rooster character cllections non fungible token NFTs
                             </p>
                             <div className="flat-bt-slider style2 flex">
                                 <a href="create-item.html" className="sc-button header-slider style style-1 rocket fl-button pri-1"><span>Create
@@ -22,16 +22,16 @@ export default function Home() {
                             </div>
                         </div>
                         
-                        <div className="swiper-container swiper mySwiper swiper-h">
+                        {/* <div className="swiper-container swiper mySwiper swiper-h">
                             <div className="swiper-wrapper">
                               
                               <div className="swiper-slide">
                                 <div className="swiper mySwiper1 swiper-v">
                                   <div className="swiper-wrapper">
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.1.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.2.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.3.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.2.png" alt="Image"/></div>
                                   </div>
                                 </div>
                               </div>
@@ -43,10 +43,10 @@ export default function Home() {
                               <div className="swiper-slide">
                                 <div className="swiper mySwiper2 swiper-v">
                                   <div className="swiper-wrapper">
-                                  <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.3.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.2.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.3.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.1.png" alt="Image"/></div>
                                   </div>
                                   <div className="swiper-pagination"></div>
                                 </div>
@@ -59,10 +59,10 @@ export default function Home() {
                               <div className="swiper-slide">
                                 <div className="swiper mySwiper1 swiper-v">
                                   <div className="swiper-wrapper">
-                                  <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.2.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.1.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.3.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.1.png" alt="Image"/></div>
                                   </div>
                                   <div className="swiper-pagination"></div>
                                 </div>
@@ -75,16 +75,16 @@ export default function Home() {
                               <div className="swiper-slide">
                                 <div className="swiper mySwiper2 swiper-v">
                                   <div className="swiper-wrapper">
-                                  <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken4.png" alt="Image"/></div>
-                                    <div className="swiper-slide"><img src="assets/images/item-chicken/chicken5.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.1.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.2.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.3.png" alt="Image"/></div>
+                                    <div className="swiper-slide"><img src="assets/images/box-item/item-h5.2.png" alt="Image"/></div>
                                   </div>
                                   <div className="swiper-pagination"></div>
                                 </div>
                               </div>
                             </div>
-                        </div>
+                        </div> */}
                         
                     </div>
                 </div>                           
