@@ -22,22 +22,20 @@ export default function ComponentNav({
             <div id="site-header-inner">
               <div className="wrap-box flex">
                 <div id="site-logo" className="clearfix">
-                  <div id="site-logo-inner">
-                    <a href="/" rel="home" className="main-logo">
-                      {/* <img
+                  <div id="site-logo-inner" >
+                    <a href="/" rel="home" className="main-logo d-flex align-items-center" >
+                      <img
                         id="logo_header"
-                        src="assets/images/logo/logo_dark.png"
+                        src="assets/images/logo/logo.png"
                         alt="nft-gaming"
-                        width={133}
-                        height={56}
+                        style={{ height: "56px", objectFit: "contain" }}
                         data-retina="assets/images/logo/logo_dark@2x.png"
-                        data-width={133}
-                        data-height={56}
-                      /> */}
-                      <h3>ChickenSIX</h3>
+                      />
+                      <p className="ml-4 p-0 font-weight-bold text-white">ChickenSIX</p>
                     </a>
                   </div>
                 </div>
+
                 <div className="mobile-button">
                   <span />
                 </div>
@@ -93,7 +91,7 @@ export default function ComponentNav({
                         </li>
                       </ul>
                     </li>
-                
+
                     <li className="menu-item ">
                       <a href="#">Contact</a>
                       {/* <ul className="sub-menu">
@@ -112,7 +110,7 @@ export default function ComponentNav({
                   {profilesWallet && profilesWallet.length > 0 ? (
                     <>
                       <div className="connect-wal">
-                        <ComponentPopupUser profilesWallet={profilesWallet}/>
+                        <ComponentPopupUser profilesWallet={profilesWallet} />
                       </div>
                     </>
                   ) : (
