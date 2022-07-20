@@ -170,7 +170,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -202,7 +202,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 10.89 AURA</h5>
+                                        <h5> 10.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -233,7 +233,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -264,7 +264,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -295,7 +295,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -326,7 +326,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -357,7 +357,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -388,7 +388,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -419,7 +419,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -451,7 +451,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -482,7 +482,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -513,7 +513,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -544,7 +544,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -575,7 +575,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -606,7 +606,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
@@ -637,7 +637,7 @@ export default function Home() {
                                     </div>
                                     <div className="price">
                                         <span>Current Bid</span>
-                                        <h5> 4.89 AURA</h5>
+                                        <h5> 4.89 RVN</h5>
                                     </div>
                                 </div>
                                 <div className="card-bottom">
